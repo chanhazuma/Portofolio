@@ -206,13 +206,13 @@ main .product figure figcaption p{
 main .product div{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, clamp(100px, 40vw, 250px));
     margin: 20px 0;
     width: 100%;
     place-items: center;
 }
 main .product div figure{
-    height: fit-content;
+    height: clamp(150px, 25vh, 250px);
     background: #000;
     overflow: hidden;
     color: #fff;
