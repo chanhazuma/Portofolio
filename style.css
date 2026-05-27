@@ -212,7 +212,7 @@ main .product div{
     place-items: center;
 }
 main .product div figure{
-    
+    height: fit-content;
     background: #000;
     overflow: hidden;
     color: #fff;
