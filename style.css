@@ -206,7 +206,7 @@ main .product figure figcaption p{
 main .product div{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, fit-content);
+    grid-template-columns: repeat(auto-fit, clamp(150px, 35vw, 250px);
     aspect-ratio: 1 / 1.25;
     margin: 20px 0;
     width: 100%;
